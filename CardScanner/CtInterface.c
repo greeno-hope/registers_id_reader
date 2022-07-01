@@ -1,3 +1,18 @@
+/**
+ * @file
+ * CtInterface.h
+ * 
+ * @brief
+ * This file contains the main interface function that talk to the card reader (mostly Win API
+ * SCARD calls) or the in-proximity card itself (CT API - ACS1252U calls)
+ * The final fuction _ct_poll is the function that (in a short lived spawned thread) connects to
+ * an 'in-proximity' NFC card and reads the student ID into a buffer which is sent to the main
+ * WinProc to be appended to the main EditText control in the UI.
+ *         
+ * @par       
+ * COPYRIGHT NOTICE: (c) 2022 Mark Greenwood - Liverpool Hope University .  All rights reserved.
+ */
+
 #include "Definitions.h"
 #include "Globals.h"
 #include "CtInterface.h" 
@@ -12,7 +27,7 @@
  */
 LONG _ct_get_context(SCARDCONTEXT *context) {
 
-    // To establish the resource manager context and assign it to “hContext”
+    // To establish the resource manager context and assign it to ï¿½hContextï¿½
     LONG retCode = SCardEstablishContext(SCARD_SCOPE_USER,
                                         NULL,
                                         NULL,

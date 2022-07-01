@@ -1,5 +1,19 @@
-// CardScanner.cpp : Defines the entry point for the application.
-//
+/**
+ * @file
+ * CardScanner.c
+ * 
+ * @brief
+ * This file contains the main windows functions for the application
+ *      wWinMain; little 'w' meaning that it's a wide build carh are @L@ WCHAR etc
+ *      MyRegisterClass
+ *      InitInstance: where the main window is created and the message loop starts
+ *      WndProc: this is the Windows event handler and all state changes happen here
+ *      set_menus: a utility function that just grays/enables the menu items according
+ *                 to the current app state            
+ *
+ * @par       
+ * COPYRIGHT NOTICE: (c) 2022 Mark Greenwood - Liverpool Hope University .  All rights reserved.
+ */
 
 #include "framework.h"
 #include "commdlg.h"

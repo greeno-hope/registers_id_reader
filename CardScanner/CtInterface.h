@@ -1,3 +1,14 @@
+/**
+ * @file
+ * CtInterface.h
+ * 
+ * @brief
+ * Header file for CtInterface.h
+ *         
+ * @par       
+ * COPYRIGHT NOTICE: (c) 2022 Mark Greenwood - Liverpool Hope University .  All rights reserved.
+ */
+
 #pragma once
 
 #include "ct_api.h"

@@ -1,6 +1,22 @@
+/**
+ * @file
+ * Globals.h
+ * 
+ * @brief
+ * This file contains the definitions of the extern (global) variables declared in Globals.h
+ *         
+ * @par       
+ * COPYRIGHT NOTICE: (c) 2022 Mark Greenwood - Liverpool Hope University .  All rights reserved.
+ */
+
 #include "framework.h"
 #include "globals.h"
 
+
+/*
+ * A static array of pointers to char containing a list of rooms
+ * used to populate a ListBox in the ConfigDialog
+ */
 WCHAR *_roomsList[] = {L"--- NONE --- ",
 						L"FML 200",
 						L"FML 201",
@@ -21,6 +37,10 @@ WCHAR *_roomsList[] = {L"--- NONE --- ",
 						L"FML 415",
 						L"FML 420" };
 
+/*
+ * A static array of pointers to char containing a list of times
+ * used to populate a ListBox in the ConfigDialog
+ */
 WCHAR *_timesList[] = {L"--- NONE ---",
 						L"09.00 am",
 						L"10.00 am",

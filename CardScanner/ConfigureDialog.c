@@ -1,3 +1,19 @@
+/**
+ * @file
+ * ConfigDialog.c
+ * 
+ * @brief
+ * This file contains the Windows callback function for the congigure dialog.
+ * In fact it doesn't do very much except set some global strings (see globals.h)
+ * that are used as the first few lines in a text file when the register is stored
+ *      subject/title
+ *      time of class
+ *      room in which the class takes place
+ *         
+ * @par       
+ * COPYRIGHT NOTICE: (c) 2022 Mark Greenwood - Liverpool Hope University .  All rights reserved.
+ */
+
 #include "ConfigureDialog.h"
 
 #include "framework.h"

@@ -1,3 +1,16 @@
+/**
+ * @file
+ * CtError.c
+ * 
+ * @brief
+ * This file maps error codes from the card reader (defined in the Windows SCARD API) to the associated
+ * error strings. Those strings are presented to the user in an error dialog if an error is returned
+ * through the _ct interface functions.
+ *         
+ * @par       
+ * COPYRIGHT NOTICE: (c) 2022 Mark Greenwood - Liverpool Hope University .  All rights reserved.
+ */
+
 #include "CtError.h"
 
 WCHAR* resolve_warning_string(long err_code) {

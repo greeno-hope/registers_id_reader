@@ -1,3 +1,16 @@
+/**
+ * @file
+ * Globals.h
+ * 
+ * @brief
+ * This file contains the declarations of a number of handles that I want to be globally
+ * available (hence extern). The variables are defined in Globals.c and used in CardScanner.c
+ * ConfigDialog.c and CtInterface.c
+ *         
+ * @par       
+ * COPYRIGHT NOTICE: (c) 2022 Mark Greenwood - Liverpool Hope University .  All rights reserved.
+ */
+
 #pragma once
 
 #include "framework.h"

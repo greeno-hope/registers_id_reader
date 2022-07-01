@@ -1,3 +1,14 @@
+/**
+ * @file
+ * AboutDialog.c
+ * 
+ * @brief
+ * Implementation of the Windows callback function for the 'About' (help) dialog.
+ *
+ * @par       
+ * COPYRIGHT NOTICE: (c) 2022 Mark Greenwood - Liverpool Hope University .  All rights reserved.
+ */
+
 #include "AboutDialog.h"
 
 // Message handler for about box.
